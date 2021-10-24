@@ -11,6 +11,7 @@ public class CentreSPATab {
     // index out 0 of bound car tableau length 0
     public void entrer(Animal a) {
         for (int i = 0; i < capaMax; i++) {
+            if (cage[i] == a) break;
             if (cage[i] == null) {
                 cage[i] = a;
                 break;
