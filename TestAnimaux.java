@@ -3,7 +3,7 @@ public class TestAnimaux {
         Chien c1 = new Chien("crème", "Medor");
         Chat c2 = new Chat("noir", "baba");
         Coyotte c3 = new Coyotte("blanc", "jojo");
-        CentreSPAPi spa = new CentreSPAPi(4);
+        CentreSPATab spa = new CentreSPATab(4);
 
         spa.entrer(c1);
         spa.entrer(c2);

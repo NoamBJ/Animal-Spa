@@ -7,4 +7,8 @@ public class ChienBergerBlanc extends Chien {
         this.troupeauMax = troupeauMax;
     }
 
+    public void jouer() {
+
+    }
+
 }

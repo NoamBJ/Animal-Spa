@@ -55,4 +55,13 @@ public class CentreSPATab {
         }
         return false;
     }
+
+    // marche pas
+    public void faireJouer() {
+        for (int i = 0; i < capaMax; i++) {
+            if (cage[i].getEspece().equals("Chat") || cage[i].getEspece().equals("Chien")) {
+                cage[i].jouer();
+            }
+        }
+    }
 }

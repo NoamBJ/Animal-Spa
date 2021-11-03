@@ -12,4 +12,8 @@ public class Chat extends Animal {
         return super.toString() + " et j’avance à pas feutrés";
     }
 
+    public void jouer() {
+
+    }
+
 }
