@@ -59,19 +59,16 @@ public class CentreSPATab {
     // marche pas
     public void faireJouer() {
         for (int i = 0; i < capaMax; i++) {
-            if (cage[i].getEspece().equals("Chat") || cage[i].getEspece().equals("Chien")) {
-                cage[i].jouer();
+            if (cage[i] instanceof Compagnon) {
+                ((Compagnon) cage[i]).jouer();
             }
         }
     }
 
     public void getCompagnons() {
         for (int i = 0; i < capaMax; i++) {
-            try {
-                if (cage[i].getEspece().equals("Chat") || cage[i].getEspece().equals("Chien")) {
-                    System.out.println(cage[i].getNom());
-                }
-            } catch (Exception e) {
+            if (cage[i] instanceof Compagnon && cage[i] != null) {
+                System.out.println(cage[i].getNom());
             }
         }
         System.out.println();

@@ -1,4 +1,4 @@
-public class Chat extends Animal {
+public class Chat extends Animal implements Compagnon {
 
     public Chat(String couleur, String nom) {
         super("Chat", couleur, nom, count);

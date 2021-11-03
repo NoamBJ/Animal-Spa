@@ -1,4 +1,4 @@
-public class ChienBergerBlanc extends Chien {
+public class ChienBergerBlanc extends Chien implements Compagnon {
 
     private int troupeauMax;
 
