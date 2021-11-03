@@ -64,4 +64,16 @@ public class CentreSPATab {
             }
         }
     }
+
+    public void getCompagnons() {
+        for (int i = 0; i < capaMax; i++) {
+            try {
+                if (cage[i].getEspece().equals("Chat") || cage[i].getEspece().equals("Chien")) {
+                    System.out.println(cage[i].getNom());
+                }
+            } catch (Exception e) {
+            }
+        }
+        System.out.println();
+    }
 }

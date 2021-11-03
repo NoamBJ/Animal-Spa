@@ -54,4 +54,8 @@ public class Animal {
         Animal animal = (Animal) a;
         return this.getNumPuce() == animal.getNumPuce();
     }
+
+    public void jouer() {
+
+    }
 }
