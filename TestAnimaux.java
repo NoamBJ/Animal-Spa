@@ -21,6 +21,16 @@ public class TestAnimaux {
 
         System.out.println(spa.toString());
 
+        CentreSPALinkedList ll = new CentreSPALinkedList();
+        ll.addAnimal(c1);
+        ll.addAnimal(c2);
+        ll.addAnimal(c3);
+        ll.getAnimaux();
+        System.out.println(ll.toString());
+        ll.removeAnimal(c1);
+        ll.getAnimaux();
+        System.out.println(ll.toString());
+
     }
 
 }
