@@ -7,11 +7,11 @@ public class Animal {
     public static int count = 1;
 
     // Constructeur
-    public Animal(String esp, String couleur, String nom, int numPuce) {
+    public Animal(String esp, String couleur, String nom) {
         espece = esp;
         this.couleur = couleur;
         this.nom = nom;
-        this.numPuce = numPuce;
+        this.numPuce = numPuce + count;
         count++;
     }
 
@@ -39,7 +39,7 @@ public class Animal {
     }
 
     /** Renvoie une description textuelle de l'animal. */
-    public String toString() {
+    public String toString1() {
         return "Le " + espece + " " + couleur + " " + nom + " vous dit " + crier();
     }
 

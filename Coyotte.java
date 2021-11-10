@@ -1,7 +1,7 @@
 public class Coyotte extends Animal {
 
     public Coyotte(String couleur, String nom) {
-        super("Coyotte", couleur, nom, count);
+        super("Coyotte", couleur, nom);
     }
 
     public String crier() {

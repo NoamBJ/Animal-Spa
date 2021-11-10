@@ -1,7 +1,7 @@
 public class Chien extends Animal {
 
     public Chien(String couleur, String nom) {
-        super("Chien", couleur, nom, count);
+        super("Chien", couleur, nom);
     }
 
     public String crier() {

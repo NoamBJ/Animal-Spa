@@ -1,7 +1,7 @@
 public class Chat extends Animal implements Compagnon {
 
     public Chat(String couleur, String nom) {
-        super("Chat", couleur, nom, count);
+        super("Chat", couleur, nom);
     }
 
     public String crier() {
